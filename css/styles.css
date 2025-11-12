@@ -15,4 +15,16 @@ h2 {
   margin-bottom: 10px;
 }
 
+.genero {
+ gap : 20px;
+  display: flex;
+  flex-wrap:  wrap;
+  
+}
 
+.genero img {
+  width: 200px;
+}
+.peliculatam {
+  width: 200px;
+}
