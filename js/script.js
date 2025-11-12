@@ -98,12 +98,12 @@ const pelisTriller = peliculasthrillerYAFILTRADAS.map(peli=>{
 const pelisAccion = peliculasaccionYAFILTRADAS.map(peli=>{
 
 // el poner las backflipc en la const template lo que hacemos es que sea literal y asi creamos html o eso creo
-
+// ----DESPUES LE LLAMAMOS PELICULASTAM AL DIV, POR QUE LO NECESITAREMOS EN EL CSS PARA TOCAR EL TAMAÑO DEL DIV, 
 const template = `
 
     <div class="peliculatam">
       <img src="https://image.tmdb.org/t/p/w500${peli.poster_path}" alt="${peli.title}" />
-      <h3>${peli.title}</h3>
+      <h3 class="peliculastitletam">${peli.title}</h3>
     </div>
   `;
   return template;
